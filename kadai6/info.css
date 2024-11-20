@@ -1,0 +1,30 @@
+@charset "utf-8";
+.info {
+    background-color: #F7C98F;
+    width: 100%;
+    color: #FFFCF9;
+    float: left;
+	background-size: 100%;
+}
+.info h1 {
+    float: left;
+}
+
+.info h2 {
+    color: #232A32;
+    font-family: "ＭＳ Ｐ明朝";
+    font-size: 25px;
+    line-height: 450%;
+    text-decoration: underline;
+}
+.info-image {
+    float: right;
+}
+
+small {
+    font-size: smaller;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #232A32;
+    padding-top: 16%;
+    float: right;
+}

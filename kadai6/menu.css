@@ -1,0 +1,60 @@
+@charset "utf-8";
+body {
+    font-family: "ＤＦＧ勘亭流W11";
+    margin: 0;
+    padding: 0;
+    background-color: #F7C98F;
+    color: #0A0A0A;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content
+}
+
+.Gyu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.Buta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.Tori {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.menu-image {
+    width: 100%;
+	height: auto;
+    display: block;
+}
+
+.menu-info {
+    padding: 1rem;
+}
+
+.menu-info h2 {
+    margin: 0 0 0.5rem;
+    color: #0A0A0A;
+}
+
+.menu-info p {
+    margin: 0.5rem 0;
+    color: #0A0A0A;
+}
+
+.menu-container h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
